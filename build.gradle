@@ -55,7 +55,7 @@ dependencies {
     devicetypesCompile 'smartthings:appengine-zigbee:0.1.12'
     smartappsCompile 'org.codehaus.groovy:groovy-all:2.4.7'
     smartappsCompile 'smartthings:appengine-common:0.1.9'
-    smartappsCompile 'org.codehaus.groovy.modules.http-builder:http-builder:0.7.1'
+    smartappsCompile 'org.codehaus.groovy.modules.http-builder:http-builder:0.7.2'
     smartappsCompile 'org.grails:grails-web:2.3.11'
     smartappsCompile 'org.json:json:20140107'
 }
