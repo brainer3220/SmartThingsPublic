@@ -57,7 +57,7 @@ dependencies {
     smartappsCompile 'smartthings:appengine-common:0.1.9'
     smartappsCompile 'org.codehaus.groovy.modules.http-builder:http-builder:0.7.1'
     smartappsCompile 'org.grails:grails-web:2.3.11'
-    smartappsCompile 'org.json:json:20140107'
+    smartappsCompile 'org.json:json:20210307'
 }
 
 slackSendMessage {
