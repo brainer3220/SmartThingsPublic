@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "20:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.grails:grails-web
+    versions:
+    - 4.0.6
+    - 4.0.7
+    - 4.0.9
+  - dependency-name: org.json:json
+    versions:
+    - "20201115"
+  - dependency-name: org.codehaus.groovy:groovy-all
+    versions:
+    - 3.0.7
